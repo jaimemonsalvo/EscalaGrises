@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Pantalla Verde</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+    <body>
+<h1> PRACTICA DE PANTALLA VERDE  </h1>
+ 
+<canvas id="uno"></canvas>
+<canvas id="dos"></canvas>
+<canvas id="tres"></canvas>
+<p>
+Foreground: 
+  <input type = "file"
+       multiple = "false"
+       accept = "image/*"
+       id = "fgfile"
+       onchange = " loadForegroundImage()">
+  </p>
+<p>
+Background:
+  <input type = "file"
+       multiple = "false"
+       accept = "image/*"
+       id = "bgfile"
+       onchange = "loadBackgroundImage()">
+  </p>
+    <input type = "button"
+      value = "Create Composite"
+       onclick = "doGreenScreen()">
+
+  <input type = "button"
+       value = "Clear Canvases"
+       onclick = "clearCanvas()">
+
+
+    
+</body>
+       <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="main.js"></script>
+</html>
