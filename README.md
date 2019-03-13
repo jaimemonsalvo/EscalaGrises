@@ -1,2 +1,2 @@
-# EscalaGrises
-Project to change any picture to grayscale 
+# PantallaVerde
+Project to interpose two images, one of them background green
